@@ -2,8 +2,22 @@
     import { Link } from "svelte-routing"
 </script>
 
-<nav>
-    <Link to="/">Index</Link>
-    <Link to="about">About</Link>
-    <Link to="contact">Contact</Link>
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand">Sol Bootstrap</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <Link class="nav-link" to="/">Index</Link>
+            </li>
+            <li class="nav-item active">
+                <Link class="nav-link" to="about">About</Link>
+            </li>
+            <li class="nav-item active">
+                <Link class="nav-link" to="contact">Contact</Link>
+            </li>
+        </ul>
+    </div>
 </nav>
