@@ -1,7 +1,4 @@
-<script>
-    let word = "Hello World!"
-</script>
+<h1>Contact Pages</h1>
 
-<div data-controller="hello">
-    <h1>{ word }</h1>
-</div>
+auther: S.H.
+Sol Repo: <a href="https://github.com/S-H-GAMELINKS/sol">This</a>
