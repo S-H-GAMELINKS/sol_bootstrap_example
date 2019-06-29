@@ -1,7 +1,3 @@
-<script>
-    let word = "Hello World!"
-</script>
+<h1>About Pages</h1>
 
-<div data-controller="hello">
-    <h1>{ word }</h1>
-</div>
+This Application is developed by Sol(C++ Web FrameWork)
